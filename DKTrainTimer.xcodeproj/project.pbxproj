@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E21120B1AB6AF8700CA6F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21120A1AB6AF8700CA6F86 /* AppDelegate.swift */; };
+		3E21120D1AB6AF8700CA6F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21120C1AB6AF8700CA6F86 /* ViewController.swift */; };
+		3E2112101AB6AF8700CA6F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21120E1AB6AF8700CA6F86 /* Main.storyboard */; };
+		3E2112121AB6AF8700CA6F86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112111AB6AF8700CA6F86 /* Images.xcassets */; };
+		3E2112151AB6AF8700CA6F86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112131AB6AF8700CA6F86 /* LaunchScreen.xib */; };
+		3E2112211AB6AF8700CA6F86 /* DKTrainTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2112201AB6AF8700CA6F86 /* DKTrainTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E21121B1AB6AF8700CA6F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2111FD1AB6AF8700CA6F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2112041AB6AF8700CA6F86;
+			remoteInfo = DKTrainTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2112051AB6AF8700CA6F86 /* DKTrainTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKTrainTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2112091AB6AF8700CA6F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E21120A1AB6AF8700CA6F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E21120C1AB6AF8700CA6F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E21120F1AB6AF8700CA6F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2112111AB6AF8700CA6F86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E2112141AB6AF8700CA6F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKTrainTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E21121F1AB6AF8700CA6F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2112201AB6AF8700CA6F86 /* DKTrainTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTrainTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2112021AB6AF8700CA6F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2112171AB6AF8700CA6F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2111FC1AB6AF8700CA6F86 = {
+			isa = PBXGroup;
+			children = (
+				3E2112071AB6AF8700CA6F86 /* DKTrainTimer */,
+				3E21121D1AB6AF8700CA6F86 /* DKTrainTimerTests */,
+				3E2112061AB6AF8700CA6F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2112061AB6AF8700CA6F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112051AB6AF8700CA6F86 /* DKTrainTimer.app */,
+				3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2112071AB6AF8700CA6F86 /* DKTrainTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3E21120A1AB6AF8700CA6F86 /* AppDelegate.swift */,
+				3E21120C1AB6AF8700CA6F86 /* ViewController.swift */,
+				3E21120E1AB6AF8700CA6F86 /* Main.storyboard */,
+				3E2112111AB6AF8700CA6F86 /* Images.xcassets */,
+				3E2112131AB6AF8700CA6F86 /* LaunchScreen.xib */,
+				3E2112081AB6AF8700CA6F86 /* Supporting Files */,
+			);
+			path = DKTrainTimer;
+			sourceTree = "<group>";
+		};
+		3E2112081AB6AF8700CA6F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112091AB6AF8700CA6F86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E21121D1AB6AF8700CA6F86 /* DKTrainTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112201AB6AF8700CA6F86 /* DKTrainTimerTests.swift */,
+				3E21121E1AB6AF8700CA6F86 /* Supporting Files */,
+			);
+			path = DKTrainTimerTests;
+			sourceTree = "<group>";
+		};
+		3E21121E1AB6AF8700CA6F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E21121F1AB6AF8700CA6F86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2112041AB6AF8700CA6F86 /* DKTrainTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2112241AB6AF8700CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer" */;
+			buildPhases = (
+				3E2112011AB6AF8700CA6F86 /* Sources */,
+				3E2112021AB6AF8700CA6F86 /* Frameworks */,
+				3E2112031AB6AF8700CA6F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKTrainTimer;
+			productName = DKTrainTimer;
+			productReference = 3E2112051AB6AF8700CA6F86 /* DKTrainTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2112191AB6AF8700CA6F86 /* DKTrainTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2112271AB6AF8700CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimerTests" */;
+			buildPhases = (
+				3E2112161AB6AF8700CA6F86 /* Sources */,
+				3E2112171AB6AF8700CA6F86 /* Frameworks */,
+				3E2112181AB6AF8700CA6F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E21121C1AB6AF8700CA6F86 /* PBXTargetDependency */,
+			);
+			name = DKTrainTimerTests;
+			productName = DKTrainTimerTests;
+			productReference = 3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2111FD1AB6AF8700CA6F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kazuya Okada";
+				TargetAttributes = {
+					3E2112041AB6AF8700CA6F86 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3E2112191AB6AF8700CA6F86 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3E2112041AB6AF8700CA6F86;
+					};
+				};
+			};
+			buildConfigurationList = 3E2112001AB6AF8700CA6F86 /* Build configuration list for PBXProject "DKTrainTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2111FC1AB6AF8700CA6F86;
+			productRefGroup = 3E2112061AB6AF8700CA6F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2112041AB6AF8700CA6F86 /* DKTrainTimer */,
+				3E2112191AB6AF8700CA6F86 /* DKTrainTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2112031AB6AF8700CA6F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2112101AB6AF8700CA6F86 /* Main.storyboard in Resources */,
+				3E2112151AB6AF8700CA6F86 /* LaunchScreen.xib in Resources */,
+				3E2112121AB6AF8700CA6F86 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2112181AB6AF8700CA6F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2112011AB6AF8700CA6F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21120D1AB6AF8700CA6F86 /* ViewController.swift in Sources */,
+				3E21120B1AB6AF8700CA6F86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2112161AB6AF8700CA6F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2112211AB6AF8700CA6F86 /* DKTrainTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E21121C1AB6AF8700CA6F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2112041AB6AF8700CA6F86 /* DKTrainTimer */;
+			targetProxy = 3E21121B1AB6AF8700CA6F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E21120E1AB6AF8700CA6F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E21120F1AB6AF8700CA6F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2112131AB6AF8700CA6F86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2112141AB6AF8700CA6F86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2112221AB6AF8700CA6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E2112231AB6AF8700CA6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2112251AB6AF8700CA6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKTrainTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2112261AB6AF8700CA6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKTrainTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E2112281AB6AF8700CA6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKTrainTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKTrainTimer.app/DKTrainTimer";
+			};
+			name = Debug;
+		};
+		3E2112291AB6AF8700CA6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKTrainTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKTrainTimer.app/DKTrainTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2112001AB6AF8700CA6F86 /* Build configuration list for PBXProject "DKTrainTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2112221AB6AF8700CA6F86 /* Debug */,
+				3E2112231AB6AF8700CA6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2112241AB6AF8700CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2112251AB6AF8700CA6F86 /* Debug */,
+				3E2112261AB6AF8700CA6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E2112271AB6AF8700CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2112281AB6AF8700CA6F86 /* Debug */,
+				3E2112291AB6AF8700CA6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2111FD1AB6AF8700CA6F86 /* Project object */;
+}
