@@ -13,6 +13,13 @@
 		3E2112121AB6AF8700CA6F86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112111AB6AF8700CA6F86 /* Images.xcassets */; };
 		3E2112151AB6AF8700CA6F86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112131AB6AF8700CA6F86 /* LaunchScreen.xib */; };
 		3E2112211AB6AF8700CA6F86 /* DKTrainTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2112201AB6AF8700CA6F86 /* DKTrainTimerTests.swift */; };
+		3E21125A1AB6BCEE00CA6F86 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2112591AB6BCEE00CA6F86 /* InterfaceController.swift */; };
+		3E21125C1AB6BCEE00CA6F86 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21125B1AB6BCEE00CA6F86 /* GlanceController.swift */; };
+		3E21125E1AB6BCEE00CA6F86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E21125D1AB6BCEE00CA6F86 /* Images.xcassets */; };
+		3E2112621AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112611AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app */; };
+		3E21126A1AB6BCEE00CA6F86 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2112681AB6BCEE00CA6F86 /* Interface.storyboard */; };
+		3E21126C1AB6BCEE00CA6F86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E21126B1AB6BCEE00CA6F86 /* Images.xcassets */; };
+		3E21126F1AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E2112551AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 3E2112041AB6AF8700CA6F86;
 			remoteInfo = DKTrainTimer;
 		};
+		3E2112631AB6BCEE00CA6F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2111FD1AB6AF8700CA6F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2112601AB6BCEE00CA6F86;
+			remoteInfo = "DKTrainTimer WatchKit App";
+		};
+		3E21126D1AB6BCEE00CA6F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2111FD1AB6AF8700CA6F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2112541AB6BCEE00CA6F86;
+			remoteInfo = "DKTrainTimer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E2112761AB6BCEE00CA6F86 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E21126F1AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3E2112051AB6AF8700CA6F86 /* DKTrainTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKTrainTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,15 @@
 		3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKTrainTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E21121F1AB6AF8700CA6F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2112201AB6AF8700CA6F86 /* DKTrainTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTrainTimerTests.swift; sourceTree = "<group>"; };
+		3E2112551AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DKTrainTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2112581AB6BCEE00CA6F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2112591AB6BCEE00CA6F86 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3E21125B1AB6BCEE00CA6F86 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		3E21125D1AB6BCEE00CA6F86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E2112611AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DKTrainTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2112671AB6BCEE00CA6F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2112691AB6BCEE00CA6F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3E21126B1AB6BCEE00CA6F86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E2112521AB6BCEE00CA6F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +112,8 @@
 			children = (
 				3E2112071AB6AF8700CA6F86 /* DKTrainTimer */,
 				3E21121D1AB6AF8700CA6F86 /* DKTrainTimerTests */,
+				3E2112561AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension */,
+				3E2112651AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App */,
 				3E2112061AB6AF8700CA6F86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +123,8 @@
 			children = (
 				3E2112051AB6AF8700CA6F86 /* DKTrainTimer.app */,
 				3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */,
+				3E2112551AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex */,
+				3E2112611AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +167,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3E2112561AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112591AB6BCEE00CA6F86 /* InterfaceController.swift */,
+				3E21125B1AB6BCEE00CA6F86 /* GlanceController.swift */,
+				3E21125D1AB6BCEE00CA6F86 /* Images.xcassets */,
+				3E2112571AB6BCEE00CA6F86 /* Supporting Files */,
+			);
+			path = "DKTrainTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3E2112571AB6BCEE00CA6F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112581AB6BCEE00CA6F86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2112651AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112681AB6BCEE00CA6F86 /* Interface.storyboard */,
+				3E21126B1AB6BCEE00CA6F86 /* Images.xcassets */,
+				3E2112661AB6BCEE00CA6F86 /* Supporting Files */,
+			);
+			path = "DKTrainTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		3E2112661AB6BCEE00CA6F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2112671AB6BCEE00CA6F86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +214,12 @@
 				3E2112011AB6AF8700CA6F86 /* Sources */,
 				3E2112021AB6AF8700CA6F86 /* Frameworks */,
 				3E2112031AB6AF8700CA6F86 /* Resources */,
+				3E2112761AB6BCEE00CA6F86 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3E21126E1AB6BCEE00CA6F86 /* PBXTargetDependency */,
 			);
 			name = DKTrainTimer;
 			productName = DKTrainTimer;
@@ -150,6 +244,39 @@
 			productReference = 3E21121A1AB6AF8700CA6F86 /* DKTrainTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3E2112541AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2112751AB6BCEE00CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer WatchKit Extension" */;
+			buildPhases = (
+				3E2112511AB6BCEE00CA6F86 /* Sources */,
+				3E2112521AB6BCEE00CA6F86 /* Frameworks */,
+				3E2112531AB6BCEE00CA6F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2112641AB6BCEE00CA6F86 /* PBXTargetDependency */,
+			);
+			name = "DKTrainTimer WatchKit Extension";
+			productName = "DKTrainTimer WatchKit Extension";
+			productReference = 3E2112551AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3E2112601AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2112741AB6BCEE00CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer WatchKit App" */;
+			buildPhases = (
+				3E21125F1AB6BCEE00CA6F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DKTrainTimer WatchKit App";
+			productName = "DKTrainTimer WatchKit App";
+			productReference = 3E2112611AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +292,12 @@
 					3E2112191AB6AF8700CA6F86 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 3E2112041AB6AF8700CA6F86;
+					};
+					3E2112541AB6BCEE00CA6F86 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3E2112601AB6BCEE00CA6F86 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +316,8 @@
 			targets = (
 				3E2112041AB6AF8700CA6F86 /* DKTrainTimer */,
 				3E2112191AB6AF8700CA6F86 /* DKTrainTimerTests */,
+				3E2112541AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension */,
+				3E2112601AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +337,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2112531AB6BCEE00CA6F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2112621AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App.app in Resources */,
+				3E21125E1AB6BCEE00CA6F86 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E21125F1AB6BCEE00CA6F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21126A1AB6BCEE00CA6F86 /* Interface.storyboard in Resources */,
+				3E21126C1AB6BCEE00CA6F86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +378,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E2112511AB6BCEE00CA6F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21125A1AB6BCEE00CA6F86 /* InterfaceController.swift in Sources */,
+				3E21125C1AB6BCEE00CA6F86 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = 3E2112041AB6AF8700CA6F86 /* DKTrainTimer */;
 			targetProxy = 3E21121B1AB6AF8700CA6F86 /* PBXContainerItemProxy */;
+		};
+		3E2112641AB6BCEE00CA6F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2112601AB6BCEE00CA6F86 /* DKTrainTimer WatchKit App */;
+			targetProxy = 3E2112631AB6BCEE00CA6F86 /* PBXContainerItemProxy */;
+		};
+		3E21126E1AB6BCEE00CA6F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2112541AB6BCEE00CA6F86 /* DKTrainTimer WatchKit Extension */;
+			targetProxy = 3E21126D1AB6BCEE00CA6F86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +422,14 @@
 				3E2112141AB6AF8700CA6F86 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3E2112681AB6BCEE00CA6F86 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2112691AB6BCEE00CA6F86 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DKTrainTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DKTrainTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +568,60 @@
 			};
 			name = Release;
 		};
+		3E2112701AB6BCEE00CA6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DKTrainTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E2112711AB6BCEE00CA6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DKTrainTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3E2112721AB6BCEE00CA6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = DKTrainTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "DKTrainTimer WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3E2112731AB6BCEE00CA6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DKTrainTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "DKTrainTimer WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,12 +641,30 @@
 				3E2112261AB6AF8700CA6F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E2112271AB6AF8700CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E2112281AB6AF8700CA6F86 /* Debug */,
 				3E2112291AB6AF8700CA6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2112741AB6BCEE00CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2112721AB6BCEE00CA6F86 /* Debug */,
+				3E2112731AB6BCEE00CA6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E2112751AB6BCEE00CA6F86 /* Build configuration list for PBXNativeTarget "DKTrainTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2112701AB6BCEE00CA6F86 /* Debug */,
+				3E2112711AB6BCEE00CA6F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
